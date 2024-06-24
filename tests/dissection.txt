@@ -1,0 +1,80 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    00:00:00_00:00:00     Broadcast             ARP      42     ARP Announcement for 127.0.0.1
+
+Frame 1: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (ARP Announcement)
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 3.310119775    127.0.0.1             127.0.0.1             ICMP     66     Echo (ping) request  id=0x0000, seq=0/0, ttl=64 (no response found!)
+
+Frame 2: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 6.610472158    ::1                   ::1                   ICMPv6   92     Echo (ping) request id=0x0000, seq=0, hop limit=64 (reply in 4)
+
+Frame 3: 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 6, Src: ::1, Dst: ::1
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 6.610483858    ::1                   ::1                   ICMPv6   92     Echo (ping) reply id=0x0000, seq=0, hop limit=64 (request in 3)
+
+Frame 4: 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 6, Src: ::1, Dst: ::1
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 9.940142241    127.0.0.1             127.0.0.1             IGMPv2   42     Membership Query, general
+
+Frame 5: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Internet Group Management Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 13.260687029   ::1                   ::1                   ICMPv6   82     Multicast Listener Report Message v2
+
+Frame 6: 82 bytes on wire (656 bits), 82 bytes captured (656 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 6, Src: ::1, Dst: ::1
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 16.560013417   ::1                   ::1                   ICMPv6   78     Neighbor Solicitation for ::1
+
+Frame 7: 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 6, Src: ::1, Dst: ::1
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 16.560024617   ::1                   ::1                   ICMPv6   78     Neighbor Advertisement ::1 (sol)
+
+Frame 8: 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 6, Src: ::1, Dst: ::1
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 19.920306433   127.0.0.1             127.0.0.1             TCP      79     20 → 4567 [SYN] Seq=0 Win=8192 Len=25 [TCP segment of a reassembled PDU]
+
+Frame 9: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 20, Dst Port: 4567, Seq: 0, Len: 25
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 23.230424055   127.0.0.1             127.0.0.1             DNS      52     Unknown operation (9) 0x4845[Malformed Packet]
+
+Frame 10: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 12345
+Domain Name System (query)
+[Malformed Packet: DNS]
